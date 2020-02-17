@@ -1,0 +1,43 @@
+#header{
+    background-color: aqua;
+    padding: 20px;
+    height: 40px;
+    margin: 20px;
+}
+#video-section{
+    background-color: blueviolet;
+    padding: 20px;
+    height: 350px;
+}
+#side-section{
+    background-color: chartreuse;
+    padding: 20px;
+    height: 1650px;
+}
+#comments-section{
+    background-color: crimson;
+    padding: 20px;
+    height: 1250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#footer{
+    background-color: mediumblue;
+    padding: 50px;
+    margin: 20px;
+}
+#div-section{
+    margin: 20px;
+    
+}
+#div-section1{
+    float: left;
+    width: 60%;
+}
+#div-section2{
+    float: right;
+    width: 500px;
+}
+#div-footer{
+    clear: both;
+}

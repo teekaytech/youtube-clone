@@ -22,7 +22,7 @@
     margin-bottom: 20px;
 }
 #footer{
-    background-color: mediumblue;
+    background-color: gainsboro;
     padding: 50px;
     margin: 20px;
 }
@@ -40,4 +40,31 @@
 }
 #div-footer{
     clear: both;
+}
+.liz{
+    display:inline;
+    margin: 0px 15px 0px 0px;
+    padding: 0;
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-size: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: start;
+    list-style: none;
+}
+.liz2{
+    direction: ltr;
+    text-align: start;
+    display:inline;
+    padding: 0px;
+    margin: 0px 15px 0px 0px;
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-size: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    list-style: none;
+    
+}
+#footer-top{
+
 }

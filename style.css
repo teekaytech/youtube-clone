@@ -1,24 +1,30 @@
+
 body{
+    background-color: #EEEEEE;
     margin-right: 150px;
     margin-left: 150px;
 }
 
 #header{
-    background-color: aqua;
-    padding: 20px;
-    height: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
     margin: 20px;
+    text-align: center;
+    
 }
+
 #video-section{
     background-color: blueviolet;
-    padding: 20px;
-    height: 350px;
+    height: 370px;
 }
+
 #side-section{
     background-color: chartreuse;
     padding: 20px;
     height: 1650px;
 }
+
 #comments-section{
     background-color: crimson;
     padding: 20px;
@@ -26,26 +32,94 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 #footer{
     background-color: white;
     padding: 50px;
     margin: 20px;
 }
+
 #div-section{
     margin: 20px;
-    
+    clear: both;
 }
+
 #div-section1{
     float: left;
     width: 60%;
 }
+
 #div-section2{
     float: right;
     width: 380px;
 }
+
 #div-footer{
     clear: both;
 }
+
+#header1 {
+    flex: 20%;
+    margin: auto;
+    text-align: left;
+}
+
+#header2{
+    flex: 60%;
+}
+
+#header3{
+    flex: 20%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 22px 0 22px 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 12px;
+    margin: 22px 50px 22px 0;
+    cursor: pointer;
+}
+
+button#search {
+    background-color: lightsteelblue;
+    float: left;
+}
+
+button#search:hover {
+    background-color: black;
+    color: white;
+}
+
+button#sign-in {
+    background-color:blue;
+    float: right;
+}
+
+figure {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: inline-block;
+}
+div#nav-header {
+    margin: auto;
+    display: inline;
+    margin-left: 20px;
+}
+
+button#nav-bar {
+    padding: 2px;
+    margin: 2px;
+    color: black;
+    background-color: white;
+}
+
 .liz{
     display:inline;
     margin: 0px 15px 0px 0px;

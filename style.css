@@ -1,3 +1,8 @@
+body{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
 #header{
     background-color: aqua;
     padding: 20px;
@@ -36,7 +41,7 @@
 }
 #div-section2{
     float: right;
-    width: 500px;
+    width: 380px;
 }
 #div-footer{
     clear: both;
@@ -98,4 +103,29 @@
     padding: 0px 10px;
     border-color: rgb(211, 211, 211);
     margin-right: 10px;
+}
+#div-section2{
+    font-size: 100%;
+    background-color: transparent;
+    position: relative;
+    margin: 0px 0px 0px 5px; 
+    border-color: white;
+    border-width: 0px;
+    border-style: none;
+    padding: 0px;
+}
+#side1{
+        /* margin: 0px;  */
+}
+#side1, ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    border-color: white;
+}
+#side1, li{
+    position: relative;
+    margin: 0px 0px 15px;
+    padding: 0px;
+    border-color: white;
 }

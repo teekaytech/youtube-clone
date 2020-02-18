@@ -24,10 +24,12 @@ body{
 }
 
 #comments-section{
-    padding: 20px;
-    height: 1250px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    background-color: white;
+    /* height: 1250px; */
+    margin-top: 2px;
+    padding: 8px;
+
+    margin-bottom: 10px;
 }
 
 #footer{
@@ -80,7 +82,7 @@ button {
     border: none;
     color: white;
     padding: 12px;
-    margin: 21px 30px 22px 0;
+    margin: 20px 20px 20px 0;
     cursor: pointer;
 }
 
@@ -197,4 +199,36 @@ button#nav-bar {
     margin: 0px 0px 15px;
     padding: 0px;
     border-color: white;
+}
+
+h1, h4, h5, h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2 0 0 0;
+}
+
+hr {
+    color: lightgrey;
+    margin: 30px 5px 0 5px;
+}
+
+p#show {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: lightgrey;
+}
+
+p#show:hover {
+    color: black;
+}
+
+p.comment-details {
+    display: inline-block;
+    margin: auto;
+}
+
+div.comment-details {
+    display: flex;
+    margin: auto;
+    /* text-align: center; */
 }

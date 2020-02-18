@@ -7,13 +7,13 @@ body {
     display: flex;
     flex-direction: row;
     margin: 20px;
+    text-align: center;
     
 }
 
 #video-section{
     background-color: blueviolet;
-    padding: 20px;
-    height: 350px;
+    height: 370px;
 }
 
 #side-section{
@@ -56,15 +56,17 @@ body {
 }
 
 #header1 {
-    flex: 10%;
+    flex: 20%;
+    margin: auto;
+    text-align: left;
 }
 
 #header2{
-    flex: 65%;
+    flex: 60%;
 }
 
 #header3{
-    flex: 25%;
+    flex: 20%;
 }
 
 input[type=text] {
@@ -95,4 +97,22 @@ button#search:hover {
 button#sign-in {
     background-color:blue;
     float: right;
+}
+
+figure {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: inline-block;
+}
+div#nav-header {
+    margin: auto;
+    display: inline;
+    margin-left: 20px;
+}
+
+button#nav-bar {
+    padding: 2px;
+    margin: 2px;
+    color: black;
+    background-color: white;
 }

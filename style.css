@@ -15,18 +15,15 @@ body{
 }
 
 #video-section{
-    background-color: blueviolet;
     height: 370px;
 }
 
 #side-section{
-    background-color: chartreuse;
     padding: 20px;
     height: 1650px;
 }
 
 #comments-section{
-    background-color: crimson;
     padding: 20px;
     height: 1250px;
     margin-top: 10px;
@@ -148,7 +145,7 @@ button#nav-bar {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(187, 181, 181);
-    padding-bottom: 0;
+    margin-bottom: 15px;
 }
 #footer-top1{
     margin-right: 10px;

@@ -16,6 +16,7 @@ There are many elements on the YouTube page which are produced with Javascript b
   * Stickler
 
 ## Live demo
+https://teekaytech.github.io/youtube-clone/
 
 ## Getting started
 **For this project, you’ll try your best to recreate the youtube web page. The main aim is to ensure the elements get placed and styled roughly the same way as the youtube page, so functionality is not a priority.**

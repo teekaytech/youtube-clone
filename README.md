@@ -29,9 +29,9 @@ Build your own page in a .html text file and open it in your browser to check it
 
 ## Authors
  :bust_in_silhouette: **Author 1**
- * Github: 
- * Twitter:
- * LinkedIn:
+ * Github: https://github.com/teekaytech/
+ * Twitter: https://twitter.com/ola_lere
+ * LinkedIn: https://www.linkedin.com/in/teekaytech/
  
  :bust_in_silhouette: **Author 2**
  * Github: https://github.com/PhillipUg

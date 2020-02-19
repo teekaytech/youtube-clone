@@ -333,3 +333,6 @@ iframe {
     color: rgb(118, 118, 118);
     font-size: 11px;
 }
+.li-side{
+    list-style: none;
+}

@@ -140,24 +140,27 @@ h3{
 .user-p2{
     color: #606060;
 }
-#comments-section{
+#comment-section{
     margin: 0;
     padding: 0;
 }
 #subscribe {
     background-color: rgb(196, 5, 5);
-
-div.comments {
+    color: white;
+    padding: 7px;
+    font-size: medium;
+}
+div.comment {
     display: flex;
     margin-top: 20px;
 }
 
-div.comments .comment-avatar {
+div.comment .comment-avatar {
     display: inline-block;
     flex: 10%;
     margin-right: 5px;
 }
-div.comments .comment-details {
+div.comment .comment-details {
     display: inline-block;
     flex: 90%;
 }

@@ -146,6 +146,50 @@ h3{
 }
 #subscribe {
     background-color: rgb(196, 5, 5);
+
+div.comments {
+    display: flex;
+    margin-top: 20px;
+}
+
+div.comments .comment-avatar {
+    display: inline-block;
+    flex: 10%;
+    margin-right: 5px;
+}
+div.comments .comment-details {
+    display: inline-block;
+    flex: 90%;
+}
+span.duration {
+    margin-left: 10px;
+    color: grey;
+}
+.details-p2 {
+    margin-right: 10px;
+}
+p.comment-content {
+    margin-top: 5px;
+}
+.details-p3 {
+    cursor: pointer;
+}
+.details-p4 {
+    margin-top: 10px;
+    color: indigo;
+    cursor: pointer;
+    text-decoration-style: solid;
+}
+span.view-reply{
+    margin-left: 5px;
+}
+
+.details-p1, .details-p2, .details-p3, .details-p4 {
+    font-size: small;
+}
+
+button#subscribe {
+    background-color: red;
     color: white;
     float: right;
     height: 37px;

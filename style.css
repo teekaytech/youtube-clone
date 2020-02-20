@@ -204,6 +204,9 @@ img.user-image {
 span.view-reply{
     margin-left: 5px;
 }
+#ul1{
+    padding-left: 0;
+}
 
 .details-p1, .details-p2, .details-p3, .details-p4 {
     font-size: small;

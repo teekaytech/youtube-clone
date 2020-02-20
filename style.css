@@ -147,6 +147,10 @@ h3{
 p.comment-header{
     margin-top: 40px;
 }
+strong.username {
+    font-size: small;
+    margin-left: 0px;
+}
 #subscribe {
     background-color: rgb(196, 5, 5);
     color: white;
@@ -155,33 +159,44 @@ p.comment-header{
 }
 div.comment {
     display: flex;
-    margin-top: 20px;
+    margin: 20px 0 40px 0;
 }
 
 div.comment .comment-avatar {
     display: inline-block;
-    flex: 10%;
+    flex: 8%;
     margin-right: 5px;
 }
 div.comment .comment-details {
     display: inline-block;
-    flex: 90%;
+    flex: 92%;
+    padding-right: 100px;
 }
 span.duration {
     margin-left: 10px;
     color: grey;
 }
-.details-p2 {
+div.details-p2 {
     margin-right: 10px;
 }
 p.comment-content {
     margin-top: 5px;
+    margin-bottom: 3px;
+}
+img.user-image {
+    border: 0px solid;
+    border-radius: 50px;
 }
 .details-p3 {
     cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.details-p3 .fa {
+    font-size: small;
 }
 .details-p4 {
-    margin-top: 10px;
+    margin-top: 5px;
     color: indigo;
     cursor: pointer;
     text-decoration-style: solid;

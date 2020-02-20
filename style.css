@@ -147,7 +147,7 @@ h3{
 #subscribe {
     background-color: rgb(196, 5, 5);
     color: white;
-    padding: 7px;
+    padding: 2px 7px 7px 7px;
     font-size: medium;
 }
 div.comment {

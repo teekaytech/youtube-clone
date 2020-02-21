@@ -432,7 +432,7 @@ iframe {
     padding: 0;
     color: gray;
 }
-#s1{
+.s1{
     display: block;
     line-height: 1.2;
     max-height: 3.5em;
@@ -440,7 +440,7 @@ iframe {
     font-weight:bold;
     color: rgb(51, 51, 51);
 }
-#s2, #s3{
+.s2, .s3{
     line-height: 1.4em;
     height: 1.4em;
     color: rgb(118, 118, 118);

@@ -2,8 +2,10 @@
 This is a youtube clone application.
 <br>
 <br>
-<img src="assets/screen.jpg" width="300">
-<img src="assets/screen2.jpg" width="300">
+<img src="assets/screen2.jpg" width="300"> 
+<img src="assets/screen3.jpg" width="300">
+<img src="assets/screen4.jpg" width="100">
+<br>
 
 In this project, our aim here wasn’t to produce an exact replica of the YouTube video page, but rather to focus on making the media elements show up. That means two things – embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
 
